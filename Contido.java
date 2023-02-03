@@ -29,5 +29,7 @@ public class Contido {
 			System.out.println("Esta contido");
 		} else 
 			System.out.println("Nao esta contido");
+
+		leitura.close();
 	}
 }

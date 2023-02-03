@@ -35,5 +35,6 @@ public class Fibonacci {
 		Fibonacci fibonacci = new Fibonacci();
 
 		System.out.println(fibonacci.Arranjo(leitura.nextInt()));
+		leitura.close();
 	}
 }

@@ -3,7 +3,7 @@ import java.io.*;
 
 public class Arquivos1 {
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.ii);
+		Scanner entrada = new Scanner(System.in);
 
 		String texto = entrada.nextLine();
 		try {
@@ -21,5 +21,6 @@ public class Arquivos1 {
 		} catch(IOException e) {
 			System.out.println("Erro ao manipular o arquivo");
 		}
+		entrada.close();
 	}
 }

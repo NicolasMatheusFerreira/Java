@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class ConverteBases {
 
 	final static int[] potencias = {128, 64, 32, 16, 8, 4, 2, 1};
@@ -24,8 +22,6 @@ public class ConverteBases {
         
         public int QtdPalavras(String texto) {
             int j=1;
-            String[] palavras = new String[1000];
-
             for(int i=0; i<texto.length(); i++) {
                 if (' '==texto.charAt(i)) {
                     j++;
