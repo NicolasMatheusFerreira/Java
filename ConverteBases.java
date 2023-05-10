@@ -10,7 +10,7 @@ public class ConverteBases {
 		return resultado;
 	}
 
-	public int QtdCarac(String texto) {
+	public static int QtdCarac(String texto) {
 		
             int qtd=1;
 
@@ -20,7 +20,7 @@ public class ConverteBases {
             return qtd;
 	}
         
-        public int QtdPalavras(String texto) {
+        public static int QtdPalavras(String texto) {
             int j=1;
             for(int i=0; i<texto.length(); i++) {
                 if (' '==texto.charAt(i)) {
@@ -103,7 +103,7 @@ public class ConverteBases {
 		return valor;
 	}
 
-	public String isIntOctal(int valor) {
+	public static String isIntOctal(int valor) {
             
 		String octal="";
 
@@ -115,7 +115,7 @@ public class ConverteBases {
 		return isInvert(octal);
 	}
 
-	public String isOctalInt(String valor) {
+	public static String isOctalInt(String valor) {
 		int i = 0, octal, inteiro = 0;
                 String result="";
                 
